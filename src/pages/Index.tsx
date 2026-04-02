@@ -5,20 +5,20 @@ const SKIN_IMG = "https://cdn.poehali.dev/projects/c05f2902-7b89-4115-beff-077c3
 const CAR_IMG = "https://cdn.poehali.dev/projects/c05f2902-7b89-4115-beff-077c32091490/files/67339b4e-2849-43c0-8262-a7ce88f132fb.jpg";
 
 const SKINS = [
-  { id: 1,  name: "Серая толстовка",     category: "Гражданские", rarity: "Обычный",    tags: ["толстовка", "улица"],       img: "https://cdn.poehali.dev/files/d4d93c24-5603-4863-91d7-5d162a7617b9.png" },
-  { id: 2,  name: "Парень в кепке",      category: "Гражданские", rarity: "Обычный",    tags: ["кепка", "толстовка"],       img: "https://cdn.poehali.dev/files/125ce22e-86f0-4c0d-918e-dbf1836ac107.png" },
-  { id: 3,  name: "Байкер",              category: "Байкеры",     rarity: "Обычный",    tags: ["кожа", "спорт"],            img: "https://cdn.poehali.dev/files/429d757f-d77d-4c2c-a9cc-7c6abca3d9cd.png" },
-  { id: 4,  name: "Дедпул",              category: "Супергерои",  rarity: "Легендарный",tags: ["марвел", "маска"],          img: "https://cdn.poehali.dev/files/e48e0385-e750-4b77-82ba-c4cce5f13100.png" },
-  { id: 5,  name: "Красная футболка",    category: "Гражданские", rarity: "Обычный",    tags: ["футболка", "красный"],      img: "https://cdn.poehali.dev/files/c0bb7ffa-ab56-4d5c-b5b5-2d9193c0a072.png" },
-  { id: 6,  name: "Клетчатый костюм",    category: "Мафия",       rarity: "Редкий",     tags: ["костюм", "клетка"],         img: "https://cdn.poehali.dev/files/3c546ec4-9b2c-42d2-ba9c-59dcb9d9f913.png" },
-  { id: 7,  name: "Космонавт",           category: "Спецодежда",  rarity: "Эпический",  tags: ["космос", "рубашка"],        img: "https://cdn.poehali.dev/files/8ff1ccbe-cd85-4e77-8d7f-56670984162d.png" },
-  { id: 8,  name: "Оранжевая толстовка", category: "Гражданские", rarity: "Обычный",    tags: ["толстовка", "улица"],       img: "https://cdn.poehali.dev/files/b309949d-7773-45f1-8f13-589f3d08d94d.png" },
-  { id: 9,  name: "Девушка огонь",       category: "Девушки",     rarity: "Эпический",  tags: ["огонь", "девушка"],         img: "https://cdn.poehali.dev/files/ea115450-ee97-4f97-aacb-7ed4927a3a78.png" },
-  { id: 10, name: "Бабушка",             category: "Гражданские", rarity: "Обычный",    tags: ["пожилая", "гражданский"],   img: "https://cdn.poehali.dev/files/171bf3e9-77aa-43a8-bdb9-ae53c4a981a2.png" },
-  { id: 11, name: "Официант",            category: "Гражданские", rarity: "Обычный",    tags: ["костюм", "работа"],         img: "https://cdn.poehali.dev/files/033c6b04-e497-4163-b5cf-d265aa06a0de.png" },
-  { id: 12, name: "Девушка платье",      category: "Девушки",     rarity: "Редкий",     tags: ["платье", "девушка"],        img: "https://cdn.poehali.dev/files/724c3c8d-72a3-46c5-a36a-6d646ad4b7ac.png" },
-  { id: 13, name: "Девушка рубашка",     category: "Девушки",     rarity: "Обычный",    tags: ["рубашка", "девушка"],       img: "https://cdn.poehali.dev/files/7c047a96-8c85-44d4-8a76-a4ed978d55ee.png" },
-  { id: 14, name: "Футболка логотип",    category: "Гражданские", rarity: "Обычный",    tags: ["футболка", "логотип"],      img: "https://cdn.poehali.dev/files/d147204f-f128-4663-8f94-f8e25fa4e36f.png" },
+  { id: 1,  name: "1",  category: "Гражданские", rarity: "Обычный",    tags: ["толстовка", "улица"],       img: "https://cdn.poehali.dev/files/d4d93c24-5603-4863-91d7-5d162a7617b9.png" },
+  { id: 2,  name: "2",  category: "Гражданские", rarity: "Обычный",    tags: ["кепка", "толстовка"],       img: "https://cdn.poehali.dev/files/125ce22e-86f0-4c0d-918e-dbf1836ac107.png" },
+  { id: 3,  name: "3",  category: "Байкеры",     rarity: "Обычный",    tags: ["кожа", "спорт"],            img: "https://cdn.poehali.dev/files/429d757f-d77d-4c2c-a9cc-7c6abca3d9cd.png" },
+  { id: 4,  name: "4",  category: "Супергерои",  rarity: "Легендарный",tags: ["марвел", "маска"],          img: "https://cdn.poehali.dev/files/e48e0385-e750-4b77-82ba-c4cce5f13100.png" },
+  { id: 5,  name: "5",  category: "Гражданские", rarity: "Обычный",    tags: ["футболка", "красный"],      img: "https://cdn.poehali.dev/files/c0bb7ffa-ab56-4d5c-b5b5-2d9193c0a072.png" },
+  { id: 6,  name: "6",  category: "Мафия",       rarity: "Редкий",     tags: ["костюм", "клетка"],         img: "https://cdn.poehali.dev/files/3c546ec4-9b2c-42d2-ba9c-59dcb9d9f913.png" },
+  { id: 7,  name: "7",  category: "Спецодежда",  rarity: "Эпический",  tags: ["космос", "рубашка"],        img: "https://cdn.poehali.dev/files/8ff1ccbe-cd85-4e77-8d7f-56670984162d.png" },
+  { id: 8,  name: "8",  category: "Гражданские", rarity: "Обычный",    tags: ["толстовка", "улица"],       img: "https://cdn.poehali.dev/files/b309949d-7773-45f1-8f13-589f3d08d94d.png" },
+  { id: 9,  name: "9",  category: "Девушки",     rarity: "Эпический",  tags: ["огонь", "девушка"],         img: "https://cdn.poehali.dev/files/ea115450-ee97-4f97-aacb-7ed4927a3a78.png" },
+  { id: 10, name: "10", category: "Гражданские", rarity: "Обычный",    tags: ["пожилая", "гражданский"],   img: "https://cdn.poehali.dev/files/171bf3e9-77aa-43a8-bdb9-ae53c4a981a2.png" },
+  { id: 11, name: "11", category: "Гражданские", rarity: "Обычный",    tags: ["костюм", "работа"],         img: "https://cdn.poehali.dev/files/033c6b04-e497-4163-b5cf-d265aa06a0de.png" },
+  { id: 12, name: "12", category: "Девушки",     rarity: "Редкий",     tags: ["платье", "девушка"],        img: "https://cdn.poehali.dev/files/724c3c8d-72a3-46c5-a36a-6d646ad4b7ac.png" },
+  { id: 13, name: "13", category: "Девушки",     rarity: "Обычный",    tags: ["рубашка", "девушка"],       img: "https://cdn.poehali.dev/files/7c047a96-8c85-44d4-8a76-a4ed978d55ee.png" },
+  { id: 14, name: "14", category: "Гражданские", rarity: "Обычный",    tags: ["футболка", "логотип"],      img: "https://cdn.poehali.dev/files/d147204f-f128-4663-8f94-f8e25fa4e36f.png" },
 ];
 
 const CARS = [
