@@ -197,7 +197,7 @@ export default function Index() {
 
       <main className="max-w-7xl mx-auto px-4 py-6">
         {/* Filters */}
-        {activeTab !== "favorites" && (
+        {activeTab === "cars" && (
           <div className="flex flex-wrap items-center gap-3 mb-6 animate-fade-in">
             <div className="flex items-center gap-2">
               <Icon name="Filter" size={14} style={{ color: "var(--gta-muted)" }} />
