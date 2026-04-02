@@ -53,7 +53,9 @@ export default function Index() {
 
   const skinCategories = ["Все", ...Array.from(new Set(SKINS.map(s => s.category)))];
   const carCategories = ["Все", ...Array.from(new Set(CARS.map(c => c.category)))];
-  const rarities = ["Все", "Обычный", "Редкий", "Эпический", "Легендарный"];
+  const rarities = activeTab === "cars"
+    ? ["Все", "Обычный", "Редкий", "Эпический"]
+    : ["Все", "Обычный", "Редкий", "Эпический", "Легендарный"];
 
   const categories = activeTab === "skins" ? skinCategories : carCategories;
 
